@@ -241,7 +241,11 @@
 
     <!-- Maximum screen brightness allowed by the power manager.
          The user is forbidden from setting the brightness above this level -->
-    <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">1.0</item>
+    <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">0.95</item>
+    
+    <!-- Note: This setting is deprecated, please use
+         config_screenBrightnessSettingMaximumFloat instead -->
+    <integer name="config_screenBrightnessSettingMaximum">250</integer>
 
     <!-- Default screen brightness setting
          Must be in the range specified by minimum and maximum. -->
