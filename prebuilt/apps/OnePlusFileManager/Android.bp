@@ -1,13 +1,12 @@
 android_app_import {
-        name: "CameraGo",
-        apk: "CameraGo.apk",
+        name: "OPFiles",
+        apk: "OPFiles.apk",
         presigned: true,
         dex_preopt: {
-                enabled: false,
+                enabled: true,
         },
-    overrides: [
-        "Snap",
-        "Camera2",
+        overrides: [
+                "FilesPrebuilt",
         ],
         privileged: true,
         product_specific: true,
