@@ -215,3 +215,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
+    
+# Device Personalization Services
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuilt
