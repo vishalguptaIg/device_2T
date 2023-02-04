@@ -13,7 +13,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="build_maintainer_summary" translatable="false">nattolecats</string>
+    <string name="build_maintainer_summary" translatable="false">lahaina</string>
     <string name="build_maintainer_telegram" translatable="false">https://twitter.com/RMX3031_cn</string>
 
 </resources>
