@@ -28,7 +28,7 @@ public class PhoneStateService extends Service {
                 return;
             }
 
-            if (ImsManager.isEnhanced4gLteModeSettingEnabledByUser(this)) {
+            /*if (ImsManager.isEnhanced4gLteModeSettingEnabledByUser(this)) {
                 Log.i(LOG_TAG, "VoLTE enabled, trying to toggle it off and back on");
                 ImsManager.setEnhanced4gLteModeSetting(this, false);
                 new Thread(() -> {
@@ -39,7 +39,7 @@ public class PhoneStateService extends Service {
                     }
                     ImsManager.setEnhanced4gLteModeSetting(this, true);
                 }).start();
-            }
+            }*/
         }
 
         sLastState = serviceState;
