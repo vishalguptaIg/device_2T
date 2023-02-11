@@ -37,13 +37,16 @@ $(call inherit-product-if-exists, vendor/mediatek/ims/mtk-ims.mk)
 # OneplusParts
 $(call inherit-product, packages/apps/OneplusParts/parts.mk)
 
+# OPlusExtras
+PRODUCT_PACKAGES += OPlusExtras
+
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
 # Alert slider
-PRODUCT_PACKAGES += \
-    alert-slider_daemon
+#PRODUCT_PACKAGES += \
+#    alert-slider_daemon
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
